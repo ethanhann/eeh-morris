@@ -1,6 +1,6 @@
 {
   "name": "eeh-morris",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "An AngularJS service and directive(s) that wrap the Morris.js charts library.",
   "main": [
     "src/eeh-morris.js",
