@@ -1,0 +1,25 @@
+{
+  "name": "eeh-morris",
+  "version": "0.0.0",
+  "description": "An AngularJS service and directive(s) that wrap the Morris.js charts library.",
+  "main": [
+    "src/eeh-morris.js",
+    "src/eeh-morris-service.js",
+    "src/eeh-morris-directive.js"
+  ],
+  "authors": [
+    "Ethan Hann <ethanhann@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2",
+    "morris.js": "~0.5.1"
+  }
+}
