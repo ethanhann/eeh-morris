@@ -5,7 +5,7 @@
         if (angular.isUndefined($window.Morris)) {
             throw 'Include the jQuery.flot plugin.';
         }
-        return $window.jQuery.Morris;
+        return $window.Morris;
     }
 
     angular.module('eehMorris').service('eehMorris', MorrisService);
